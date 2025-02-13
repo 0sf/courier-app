@@ -62,6 +62,6 @@ export interface ShipmentFormData {
   shipment_details: string;
   weight: string;
   dimensions: string;
-  sender_name: string; // Add required fields
-  tracking_number?: string; // Optional as it might be generated server-side
+  sender_name: string; 
+  tracking_number?: string;
 }

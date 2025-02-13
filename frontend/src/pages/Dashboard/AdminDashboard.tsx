@@ -74,8 +74,7 @@ const AdminDashboard: React.FC = () => {
     if (deleteShipmentId !== null) {
       try {
         await deleteShipment(deleteShipmentId);
-        closeDeleteConfirmation(); // close dialog after successful deletion
-        // Optionally, display a success message here.
+        closeDeleteConfirmation(); 
       } catch (error) {
         console.error("Failed to delete shipment:", error);
       }
